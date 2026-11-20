@@ -1,0 +1,46 @@
+{
+  "exclusions": {
+    "before_prevalence_%": 2.814943753085137,
+    "after_prevalence_%": 2.8753682806159317,
+    "excluded_prevalence_%": 1.9498607242339834,
+    "excluded_positives": 98,
+    "total_positives": 2167,
+    "chi2": 14.372905482516249,
+    "p_value": 0.00014994441129707913
+  },
+  "ensemble_reproduction_max_abs_diff": 1.360595702770695e-07,
+  "leakage_distances": {
+    "test_min_m": 1.6007810593582121,
+    "test_median_m": 62.47649558033805,
+    "val_median_m": 59.546462821127236,
+    "test_within_16m_%": 11.915727584517393,
+    "test_within_32m_%": 26.144047035766782,
+    "test_within_50m_%": 40.56834884860363,
+    "test_within_100m_%": 72.95443410093092,
+    "test_pos_median_dist_to_train_pos_m": 35.59230956260074,
+    "test_pos_nn_pos_median_m": 4.123105625617661,
+    "test_pos_nn_any_median_m": 4.031128874149275
+  },
+  "visual_examples_tree_ids": {
+    "Vrai positif": [
+      26925,
+      56610,
+      56561
+    ],
+    "Faux positif": [
+      73830,
+      73872,
+      76367
+    ],
+    "Faux négatif": [
+      55665,
+      36678,
+      33733
+    ],
+    "Vrai négatif": [
+      26320,
+      19267,
+      4867
+    ]
+  }
+}

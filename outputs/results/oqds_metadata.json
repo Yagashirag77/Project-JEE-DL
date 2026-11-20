@@ -1,0 +1,159 @@
+{
+  "rasters": [
+    {
+      "name": "2019_WV2_NDVI.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 4,
+      "dtype": "uint8,uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    },
+    {
+      "name": "2019_WV2_RGB.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 3,
+      "dtype": "uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    },
+    {
+      "name": "2020_WV2_NDVI.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 4,
+      "dtype": "uint8,uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    },
+    {
+      "name": "2020_WV2_RGB.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 3,
+      "dtype": "uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    },
+    {
+      "name": "2021_WV2_NDVI.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 4,
+      "dtype": "uint8,uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    },
+    {
+      "name": "2021_WV2_RGB.tif",
+      "width": 14462,
+      "height": 9727,
+      "bands": 3,
+      "dtype": "uint8,uint8,uint8",
+      "crs": "EPSG:32633",
+      "nodata": null,
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        706165.0,
+        4508710.5,
+        713396.0,
+        4513574.0
+      ]
+    }
+  ],
+  "vectors": [
+    {
+      "path": "data/raw/repository/vector_data/pts_OQDS.shp",
+      "rows": 77086,
+      "crs": "EPSG:32633",
+      "geometry_types": {
+        "Point": 77086
+      },
+      "columns": [
+        "fid",
+        "year",
+        "is.infect",
+        "geometry"
+      ],
+      "null_counts": {
+        "fid": 0,
+        "year": 74297,
+        "is.infect": 0,
+        "geometry": 0
+      },
+      "duplicates_full": 0,
+      "duplicate_geometries": 104,
+      "bounds": [
+        706176.0,
+        4508716.5,
+        713398.25,
+        4513571.25
+      ],
+      "categorical_distributions": {
+        "year": {
+          "NaN": 74297,
+          "2020.0": 2357,
+          "2019.0": 432
+        },
+        "is.infect": {
+          "false": 74850,
+          "true": 2236
+        }
+      }
+    }
+  ]
+}

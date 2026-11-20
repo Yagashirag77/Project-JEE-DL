@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+rasterio
+geopandas
+shapely
+tqdm
+joblib
+torch
+torchvision
+openpyxl
+pillow
+jupyter
+nbformat
+nbclient

@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "notebook_code_cells": 28,
+  "notebook_errors": 0,
+  "spatial_leakage": false,
+  "tree_leakage": false,
+  "test_tree_count": 10205,
+  "metrics_recomputed": [
+    {
+      "model": "cusum",
+      "accuracy": 0.9130818226359627,
+      "precision": 0.04735376044568245,
+      "recall": 0.14345991561181434,
+      "f1": 0.0712041884816754,
+      "roc_auc": 0.6521848819174947,
+      "pr_auc": 0.03895557047664162,
+      "n_test": 10205
+    },
+    {
+      "model": "isolation_forest",
+      "accuracy": 0.40734933855952965,
+      "precision": 0.026714448607265028,
+      "recall": 0.6919831223628692,
+      "f1": 0.05144291091593475,
+      "roc_auc": 0.5557789144672234,
+      "pr_auc": 0.025932831712852097,
+      "n_test": 10205
+    },
+    {
+      "model": "siamese_cnn",
+      "accuracy": 0.9661930426261637,
+      "precision": 0.3014705882352941,
+      "recall": 0.3459915611814346,
+      "f1": 0.32220039292730845,
+      "roc_auc": 0.8739070510866842,
+      "pr_auc": 0.22045855320117932,
+      "n_test": 10205
+    },
+    {
+      "model": "tcn",
+      "accuracy": 0.7189612934835865,
+      "precision": 0.05542412977357215,
+      "recall": 0.6919831223628692,
+      "f1": 0.10262828535669587,
+      "roc_auc": 0.7634978344203561,
+      "pr_auc": 0.06173556685381973,
+      "n_test": 10205
+    },
+    {
+      "model": "threshold",
+      "accuracy": 0.9315041646251837,
+      "precision": 0.032388663967611336,
+      "recall": 0.06751054852320675,
+      "f1": 0.04377564979480164,
+      "roc_auc": 0.6253864687675668,
+      "pr_auc": 0.03335349342660475,
+      "n_test": 10205
+    }
+  ],
+  "required_artifacts": [
+    "outputs/models/threshold.joblib",
+    "outputs/models/cusum.joblib",
+    "outputs/models/isolation_forest.joblib",
+    "outputs/models/siamese_cnn_best.pt",
+    "outputs/models/tcn_best.pt",
+    "outputs/figures/roc_curves_test.png",
+    "outputs/figures/precision_recall_curves_test.png",
+    "outputs/results/FINAL_SCIENTIFIC_REPORT.md"
+  ],
+  "manifest_entries": 66
+}

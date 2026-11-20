@@ -1,0 +1,40 @@
+{
+  "NEON": {
+    "rows_total": 41738,
+    "unique_individuals": 39702,
+    "individuals_with_multi_year_observations": 0,
+    "median_area_change_m2": null,
+    "area_change_iqr_m2": null,
+    "height_change_non_missing": 0,
+    "interpretation": "Mesure réelle de répétabilité/changement de couronne; aucune cible OQDS compatible, donc aucune fusion ni revendication de gain."
+  },
+  "Hyperspectral": {
+    "observations": 76,
+    "positives": 6,
+    "spectral_mean_features": 138,
+    "protocol": "Prédictions hors-fold, StratifiedKFold 3 plis; imputation, standardisation et PCA ajustées dans chaque pli.",
+    "roc_auc_cv": 0.7976190476190477,
+    "pr_auc_cv": 0.2617969227809045,
+    "accuracy_0_5": 0.8289473684210527,
+    "precision_0_5": 0.18181818181818182,
+    "recall_0_5": 0.3333333333333333,
+    "f1_0_5": 0.23529411764705882,
+    "tn": 61,
+    "fp": 9,
+    "fn": 4,
+    "tp": 2,
+    "cube_linkage": "Impossible: 8 cubes sans identifiant/tag explicite contre 76 lignes agrégées; aucune correspondance n'est inventée.",
+    "caution": "Seulement 6 positifs; résultat exploratoire à forte variance, non comparable au Test spatial OQDS."
+  },
+  "CrownsDb": {
+    "annotation_files": 5084,
+    "boxes": 33479,
+    "median_relative_box_area": 0.015430679391735919,
+    "relative_box_area_iqr": [
+      0.004274827951869806,
+      0.048799269967682364
+    ],
+    "non_positive_boxes": 0,
+    "role": "Source utile pour pré-entraînement/détection de couronnes et contrôle d'échelle; aucune date ni classe sanitaire, donc pas d'évaluation temporelle OQDS."
+  }
+}

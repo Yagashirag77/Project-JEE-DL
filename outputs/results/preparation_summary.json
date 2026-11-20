@@ -1,0 +1,51 @@
+{
+  "seed": 20261106,
+  "patch_size": 16,
+  "spatial_block_m": 250,
+  "original_points": 77086,
+  "duplicate_coordinate_rows_removed": 104,
+  "after_deduplication": 76982,
+  "usable_points": 71956,
+  "invalid_counts": {
+    "mostly_black_rgb": 4959,
+    "low_alpha_coverage": 59,
+    "outside_or_patch_border": 8
+  },
+  "alignment": {
+    "2019_NDVI": true,
+    "2019_RGB": true,
+    "2020_NDVI": true,
+    "2020_RGB": true,
+    "2021_NDVI": true,
+    "2021_RGB": true
+  },
+  "rgb_qc": {
+    "2019": {
+      "mean_black_fraction": 0.0860380306839943
+    },
+    "2021": {
+      "mean_black_fraction": 0.11130747199058533
+    }
+  },
+  "split_counts": {
+    "test": {
+      "0": 9968,
+      "1": 237
+    },
+    "train": {
+      "0": 49884,
+      "1": 1541
+    },
+    "val": {
+      "0": 10035,
+      "1": 291
+    }
+  },
+  "split_blocks": {
+    "test": 52,
+    "train": 258,
+    "val": 53
+  },
+  "positive_definition": "is.infect=True: arbre 2019 absent en 2020/2021, interprété comme retiré après infection probable OQDS",
+  "radiometry_warning": "Les fichiers nommés NDVI sont des rendus RGBA uint8 (bandes RGB identiques), sans métadonnée de calibration; les valeurs sont traitées comme intensité, pas comme NDVI physique."
+}

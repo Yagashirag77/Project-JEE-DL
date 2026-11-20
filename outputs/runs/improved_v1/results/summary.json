@@ -1,0 +1,11 @@
+{
+  "delta_vs_original": {
+    "delta_pr_auc_mean": 0.2413772837754778,
+    "lo": 0.07542098514077573,
+    "hi": 0.3510148149539537,
+    "p_improvement": 1.0,
+    "n_boot_valid": 993
+  },
+  "chosen": "v2_p32_bce",
+  "total_minutes": 65.97681084999931
+}

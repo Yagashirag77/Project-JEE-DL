@@ -1,0 +1,5 @@
+name,arch,patch,loss,augment,lr,val_pr_auc,best_epoch,epochs_run,train_time_s,width,dropout
+v2_p32_bce,v2,32,bce_sqrtpw,True,0.001,0.2929581145165498,7,14,514.6953348000534,16.0,0.3
+v2_p32_focal,v2,32,focal,True,0.001,0.29162923585760403,7,14,446.6652907000389,16.0,0.3
+v2_p16_bce,v2,16,bce_sqrtpw,True,0.001,0.2648582185687742,5,12,141.51920720003545,16.0,0.3
+orig_longer,original,16,bce_pw,False,0.0007,0.22786342658124623,9,16,45.151252800016664,,

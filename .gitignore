@@ -1,0 +1,15 @@
+# Environnements et caches
+.venv/
+.uv-cache/
+.uv-python/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Données (≈5,8 Go : OQDS, NEON, CrownsDb, Hyperspectral) — à télécharger séparément
+data/
+
+# Fichiers temporaires LaTeX
+*.aux
+*.log
+*.out

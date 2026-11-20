@@ -1,0 +1,30 @@
+{
+  "files": 16016,
+  "extension_counts": {
+    ".kml": 1,
+    ".tif": 1,
+    ".txt": 5084,
+    ".png": 2,
+    ".laz": 1,
+    ".zip": 1,
+    ".jpg": 5842,
+    ".xml": 5084
+  },
+  "image_shapes": {
+    "(5472, 3648, 'RGB')": 46,
+    "(1824, 1216, 'RGB')": 414,
+    "(912, 608, 'RGB')": 1656,
+    "(608, 405, 'RGB')": 3726,
+    "(829, 701, 'RGBA')": 1,
+    "(855, 701, 'RGBA')": 1
+  },
+  "corrupt_images": [],
+  "voc_files": 5084,
+  "voc_boxes": 33479,
+  "voc_labels": {
+    "0": 33479
+  },
+  "txt_annotation_files": 5084,
+  "xml_errors": [],
+  "temporal_tokens_in_names": {}
+}
