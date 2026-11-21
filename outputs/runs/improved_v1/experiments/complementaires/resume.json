@@ -1,0 +1,28 @@
+{
+  "radiometrie": {
+    "delta_bloc_d1920": {
+      "mediane": 8.77142333984375,
+      "p10": -1.5510314941406247,
+      "p90": 28.667297363281254
+    },
+    "delta_bloc_d2021": {
+      "mediane": -6.505859375,
+      "p10": -28.207594299316405,
+      "p90": 5.274884033203126
+    },
+    "delta_bloc_d1921": {
+      "mediane": 2.02496337890625,
+      "p10": -6.1136924743652346,
+      "p90": 10.047390747070315
+    }
+  },
+  "tcn_fp": {
+    "corr_score_tcn_delta_intensite_negatifs": -0.7173759352022668,
+    "part_fp_tcn_avec_baisse_intensite": 0.9949910554561717
+  },
+  "parametres": {
+    "Siamese initial (16×16)": 7201,
+    "Siamese v2 (32×32)": 84721,
+    "TCN": 1081
+  }
+}

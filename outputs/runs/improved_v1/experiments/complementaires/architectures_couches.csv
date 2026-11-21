@@ -1,0 +1,49 @@
+modele,couche,sortie,parametres
+Siamese initial (16×16),Conv2d,"(16, 16, 16)",448
+Siamese initial (16×16),ReLU,"(16, 16, 16)",0
+Siamese initial (16×16),MaxPool2d,"(16, 8, 8)",0
+Siamese initial (16×16),Conv2d,"(32, 8, 8)",4640
+Siamese initial (16×16),ReLU,"(32, 8, 8)",0
+Siamese initial (16×16),AdaptiveAvgPool2d,"(32, 1, 1)",0
+Siamese initial (16×16),Linear,"(32,)",2080
+Siamese initial (16×16),ReLU,"(32,)",0
+Siamese initial (16×16),Dropout,"(32,)",0
+Siamese initial (16×16),Linear,"(1,)",33
+Siamese v2 (32×32),Conv2d,"(16, 32, 32)",432
+Siamese v2 (32×32),BatchNorm2d,"(16, 32, 32)",32
+Siamese v2 (32×32),ReLU,"(16, 32, 32)",0
+Siamese v2 (32×32),Conv2d,"(16, 32, 32)",2304
+Siamese v2 (32×32),MaxPool2d,"(16, 16, 16)",0
+Siamese v2 (32×32),Conv2d,"(32, 16, 16)",4608
+Siamese v2 (32×32),BatchNorm2d,"(32, 16, 16)",64
+Siamese v2 (32×32),ReLU,"(32, 16, 16)",0
+Siamese v2 (32×32),Conv2d,"(32, 16, 16)",9216
+Siamese v2 (32×32),MaxPool2d,"(32, 8, 8)",0
+Siamese v2 (32×32),Conv2d,"(64, 8, 8)",18432
+Siamese v2 (32×32),BatchNorm2d,"(64, 8, 8)",128
+Siamese v2 (32×32),ReLU,"(64, 8, 8)",0
+Siamese v2 (32×32),Conv2d,"(64, 8, 8)",36864
+Siamese v2 (32×32),AdaptiveAvgPool2d,"(64, 1, 1)",0
+Siamese v2 (32×32),Linear,"(64,)",12352
+Siamese v2 (32×32),ReLU,"(64,)",0
+Siamese v2 (32×32),Dropout,"(64,)",0
+Siamese v2 (32×32),Linear,"(1,)",65
+TCN,Conv1d,"(12, 4)",108
+TCN,Chomp1d,"(12, 3)",0
+TCN,ReLU,"(12, 3)",0
+TCN,Dropout,"(12, 3)",0
+TCN,Conv1d,"(12, 4)",300
+TCN,Chomp1d,"(12, 3)",0
+TCN,ReLU,"(12, 3)",0
+TCN,Dropout,"(12, 3)",0
+TCN,Conv1d,"(12, 3)",60
+TCN,Conv1d,"(12, 5)",300
+TCN,Chomp1d,"(12, 3)",0
+TCN,ReLU,"(12, 3)",0
+TCN,Dropout,"(12, 3)",0
+TCN,Conv1d,"(12, 5)",300
+TCN,Chomp1d,"(12, 3)",0
+TCN,ReLU,"(12, 3)",0
+TCN,Dropout,"(12, 3)",0
+TCN,Identity,"(12, 3)",0
+TCN,Linear,"(1,)",13

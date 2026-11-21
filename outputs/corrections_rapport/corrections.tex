@@ -56,7 +56,7 @@ Les courbes d'apprentissage de la première version montraient un
 sous-apprentissage (PR-AUC de validation encore croissante à la fin de
 l'entraînement). La version retenue (Siamese~v2, 84\,721 paramètres)
 utilise trois blocs convolutifs avec normalisation par lots, des
-patches de 32$\times$32 pixels (au lieu de 24$\times$24), une
+patches de 32$\times$32 pixels (au lieu de 16$\times$16), une
 augmentation géométrique identique pour les deux dates (rotations de
 90°, symétries) et une variation radiométrique indépendante par date.
 L'entraînement utilise AdamW, une entropie croisée pondérée par
